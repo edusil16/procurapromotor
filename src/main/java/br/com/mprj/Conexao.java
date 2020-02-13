@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class Conexao {
 
     private static String url = "jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=on)(ADDRESS=(PROTOCOL=TCP)" +
-            "(HOST=exa-scan.pgj.rj.gov.br) (PORT=1521))(CONNECT_DATA=(SERVICE_NAME=desenv)))";
+            "(HOST=host-server) (PORT=1521))(CONNECT_DATA=(SERVICE_NAME=nome_banco)))";
     private static String password = "TJRJ_webservice_des";
     private static String user = "TJRJ_webservice_des";
     private static Connection connection = null;
