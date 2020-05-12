@@ -7,7 +7,7 @@
 # Clonando este projeto
 
 ```
-$ git clone https://github.com/edusil16/projeto-bancario-java.git
+$ git clone https://github.com/edusil16/procurapromotor.git
 ```
 
 # ❗️ Requisitos
